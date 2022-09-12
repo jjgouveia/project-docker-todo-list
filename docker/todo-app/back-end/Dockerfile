@@ -1,1 +1,11 @@
+FROM node:16.3.0-alpine
 
+WORKDIR /usr/app
+
+EXPOSE 3001
+
+ADD ./node_modules.tar.gz ./
+
+COPY . .
+
+CMD [ "npm", "start" ]
