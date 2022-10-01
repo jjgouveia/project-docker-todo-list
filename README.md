@@ -1,16 +1,37 @@
-# 🚧 README em construção 🚧
+# Projeto - Docker Todo List
 
-<!-- Olá, Tryber!
+<br />
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+## 🔨 Desenvolvimento
 
-É essencial que você preencha esse documento por conta própria, ok?
+Primeiro projeto desenvolvido durante o módulo de Back-End na <a href="https://betrybe.com/" target="_blank">Trybe</a>.
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+## 💻 Tecnologias
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+* Docker CLI
+* Docker Compose
+* Node
 
--->
+## Lissões aprendidas
+
+Neste projeto fiz a integração do back-end e do front-end numa aplicação de Lista de Tarefas através do Docker, além da integração dos testes. Foi posto em prática conceitos de criação de Dockerfile e orquestração de containers através do Docker compose.
+
+## 🛠 Instalação local
+
+Clone o projeto:
+
+```bash
+  git clone git@github.com:jjgouveia/project-docker-todo-list.git
+```
+
+Vá até a pasta do projeto:
+
+```bash
+  cd project-docker-todo-list
+```
+
+Instale as dependências:
+
+```bash
+  npm install
+```
